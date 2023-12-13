@@ -1,4 +1,5 @@
-const filePath = is_linux() ? "/dev/stdin" : "./input.txt"
+
+const filePath = Sys.islinux() ? "/dev/stdin" : "./input.txt"
 const file = open(filePath, "r")
 const input = readline(file)
 
