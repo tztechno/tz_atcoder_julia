@@ -51,11 +51,12 @@
 ```
 ---
 ```
-
+N=length(string(X0))
 ```
 ---
 ```
-
+global X=floor(X/10)
+global X=X÷10
 ```
 ---
 
